@@ -19,6 +19,13 @@ body {
     overflow: hidden;
 }
 
+.sticky {
+    background-color: rgba(5, 96, 153, .3);
+    position: sticky;
+    z-index: 90;
+    text-align: center;
+}
+
 .background-buildings,
 .foreground-buildings {
     width: 100%;
@@ -294,5 +301,12 @@ body {
                 #ccc 20%,
                 #445 21%,
                 #223 100%);
+        
+    .sticky {
+        background-color: rgba(255, 255, 255, .3);
+    }
+
+    h1 {
+        color: white;
     }
 }
